@@ -1,0 +1,35 @@
+.wrap {width: 1200px; margin: 0 auto; font: "Noto Sans KR"; color: #333;}
+.wrap .top {margin-top: 30px;}
+.wrap .top::after {content: ""; clear: both; display: block;}
+.imgLeft {float: left; width: 40%; }
+.imgLeft img {width: 100%;}
+.textRight { float: right; width: 55%; padding: 10px;}
+.textRight h1 {margin-bottom: 20px; font-size: 22px; line-height: 35px;}
+.textRight h1 strong{font-size: 24px; font-weight: 600;}
+.textRight h1 strong span { color: #19a230;}
+.textRight p {margin-bottom: 20px; font-size: 15px; letter-spacing: 1px; line-height: 1.2;}
+.textRight p strong{font-size: 16px; font-weight: 600; color: #974b0d; }
+
+img { border-radius: 20px;}
+
+.center {margin-top: 30px;}
+.center::after {content: ""; clear: both; display: block;}
+.center .textLeft {float: left; width: 55%;}
+.title::before{content: ""; width: 20px; height: 3px; background-color: #19a230; position: absolute; top: -10px; left: 0; }
+.title{ position: relative; margin: 20px 0; font-size: 24px; font-weight: 600;}
+.textLeft p{margin-bottom: 20px; font-size: 15px; letter-spacing: 1px; line-height: 1.2;}
+.textLeft p span{text-decoration: underline;}
+.textLeft p strong{font-size: 17px; font-weight: 600; color: #974b0d;}
+.imgRight{float: right; width: 40%;}
+.imgRight img{width: 100%;}
+
+.dashed{ margin: 50px 0; border-bottom: 0.2px dashed #aaa;}
+
+.bottom {margin: 30px 0;}
+.bottom .textRight{margin-top: 55px; margin-left: 40px;}
+.bottom .textRight h2{margin: 20px 0; font-size: 24px; font-weight: 600;}
+.bottom .textRight h2 span{color: #19a230;}
+.bottom .textRight ul{margin-top: 30px;}
+.bottom .textRight ul li{}
+.bottom .textRight ul li > p{font-size: 15px; font-weight: 600; line-height: 0.5;}
+.bottom .textRight ul li p > strong{color: #19a230; font-size: 17px; font-weight: 600;}
